@@ -15,7 +15,7 @@ body {
     position: fixed;
 }
 
-.msb-logo {
+#msb-logo {
     height: 68.39px;
     width: 256.75px;
     padding-top: 20px;
