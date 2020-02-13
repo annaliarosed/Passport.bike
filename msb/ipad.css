@@ -1,0 +1,48 @@
+@media screen and (device-width : 768px) {
+    .header-container {
+        height: 80px;
+        position: static;
+    }
+    
+    #msb-logo {
+        height: 43.19px;
+        width: 162.14px;
+        padding-left: 40px !important;
+    }
+
+    .footer-container {
+        height: 650px;
+    }
+
+    ol:nth-child(3n) {
+        flex-basis: 100%;
+    }
+    
+    .msb-logo-footer {
+        height: 112.52px;
+        width: 116px;
+        margin-left: -35px;
+    }
+    
+    .footer-text {
+        margin-right: 157px;
+        font-size: 13px;
+    }
+
+    .footer-hours {
+        font-size: 13px;
+        margin-left: 11px;
+    }
+
+    .social-media {
+        float: none;
+        text-align: center;
+        margin-right: 178px;
+        padding-top: 50px;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+}
