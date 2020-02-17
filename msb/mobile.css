@@ -1,0 +1,39 @@
+@media screen and (device-width : 320px) {
+    .header-container {
+        height: 80px;
+        position: static;
+    }
+    
+    #msb-logo {
+        height: 34.08px;
+        width: 128px;
+    }
+
+    .footer-container {
+        height: 811.27px;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .msb-logo-footer {
+        margin-left: 40px;
+    }
+
+    .text-normal {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .text-bold {
+        padding-top: 23px;
+    }
+
+    .social-media {
+        margin-right: 120px;
+        margin-top: -10px;
+    }
+}
