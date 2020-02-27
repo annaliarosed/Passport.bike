@@ -9,10 +9,6 @@
         width: 128px;
     }
 
-    .footer-container {
-        height: 811.27px;
-    }
-
     .footer-content {
         display: flex;
         flex-direction: column;
