@@ -138,10 +138,10 @@ body {
 .header-wrapper {
     width: 100%;
     background-color: rgba(0,0,0,0.1);
-    height: 150px;
     font-size: 18px;
     box-sizing: border-box;
     font-weight: bold;
+    padding: 50px;
 }
 
 .slide-in-header {
@@ -159,18 +159,48 @@ body {
     flex-wrap: wrap;
 }
 
-
 .email-wrapper, .phone-number-wrapper {
     display: flex;
-    align-items: center;
-    margin-top: 55px;
 }
 
-#telephone-logo {
+#email-logo {
     box-sizing: border-box;
     margin-right: 5px;
+    border-radius: 8px;
 }
 
+#email {
+    text-decoration: none;
+    color: black;
+}
+
+.body-wrapper {
+    
+}
+
+.slide-in-menu-body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 425px;
+    height: 100vh;
+}
+
+.body-item{
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 9px 0;
+    text-shadow: 1px 0 #000
+}
+
+.body-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+}
 
 
 
