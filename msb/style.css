@@ -180,6 +180,10 @@ body {
     color: black;
 }
 
+#email:hover {
+    color: #2F2F2F;
+}
+
 .slide-in-menu-body {
     margin: 0 auto;
     width: 100%;
@@ -193,7 +197,12 @@ body {
     font-size: 36px;
     font-weight: bold;
     padding: 9px 0;
-    text-shadow: 1px 0 #000
+    text-shadow: 1px 0 #000;
+}
+
+.body-item:hover {
+    color: #2F2F2F;
+    text-shadow: 1px 0 #2F2F2F;
 }
 
 .body-item-wrapper {
