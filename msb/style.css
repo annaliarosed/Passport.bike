@@ -6,10 +6,6 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
-  main {
-    
-  }
-
 .header-container {
     background-color: #0096d6;
     width: 100%;
@@ -142,6 +138,16 @@ body {
     box-sizing: border-box;
     font-weight: bold;
     padding: 50px;
+}
+
+.exit-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#exit-button {
+    height: 20px;
+    margin-right: -25px;
 }
 
 .slide-in-header {
