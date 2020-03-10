@@ -14,7 +14,7 @@
             <a href="https://mainstbicycles.com/">
                 <img id="msb-logo" src="pictures/msblogo.png" alt="Main Street Bicycles Logo" width="256.75" height="68.39">
             </a>
-            <img src="pictures/bars.svg" alt="" class="hamburger-menu" onclick="openMenu()">
+            <button class="hamburger" onclick="toggleNav()"><img src="pictures/bars.svg" alt="" class="hamburger"></button>
         </div>
         <div class="main"> <!--MAIN CONTENT/MAP-->
             <div class="map-container">
@@ -53,8 +53,8 @@
         <!--HAMBURGER MENU ATTEMPT-->
         <div id="menu" class="slide-in-menu-container">
             <div class="header-wrapper">
-                <a href="#" class="exit-button-wrapper">
-                    <img src="pictures/ex.svg" alt="exit button" id="exit-button" onclick="closeMenu()">
+                <a href="#" class="exit-button-wrapper" class=".hamburger">
+                    <button class="exit-button"><img src="pictures/ex.svg" alt="exit button" id="exitButton" class="exit-button" onclick="toggleNav()"></button>
                 </a>
                 <div class="slide-in-header">
                     <div class="contact-info-wrapper">
@@ -68,8 +68,7 @@
                         </div>
                     </div>
                 </div>
-            </div
-            >
+            </div>
             <div class="body-wrapper">
                 <div class="slide-in-menu-body">
                     <div class="body-item-wrapper">
@@ -82,6 +81,7 @@
                 </div>
                 </div>
             </div>
-        </div i>
+        </div >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js.js"></script>
 </body>

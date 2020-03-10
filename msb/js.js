@@ -1,10 +1,13 @@
-function closeMenu() {
-    document.getElementById("menu").style.display = "none";
-};
 
-function openMenu() {
-    document.getElementById("menu").style.display = "unset";
-};
+
+$(document).ready(function(){
+    $("button").click(function(){
+      $("#menu").fadeToggle(1000);
+    });
+  });
+
+
+
 
 window.onscroll = function() {scrollFunction()};
 
