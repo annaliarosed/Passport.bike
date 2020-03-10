@@ -1,12 +1,9 @@
 
-
 $(document).ready(function(){
     $("button").click(function(){
       $("#menu").fadeToggle(1000);
     });
   });
-
-
 
 
 window.onscroll = function() {scrollFunction()};
