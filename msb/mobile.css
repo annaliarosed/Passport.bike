@@ -9,6 +9,10 @@
         width: 128px;
     }
 
+    .map-container {
+        width: 90%;
+    }
+
     .footer-content {
         display: flex;
         flex-direction: column;
