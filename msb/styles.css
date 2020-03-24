@@ -14,7 +14,12 @@ body {
     align-items: center;
     justify-content: space-between;
     position: fixed;
+}
 
+@media screen and (max-width : 980px) {
+    .header-container {
+        position: static;
+    }
 }
 
 #logo-container {
@@ -86,6 +91,13 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width : 450px) {
+    .footer-content {
+        flex-direction: column;
+    }
 }
 
 .msb-logo-footer {
@@ -231,6 +243,7 @@ body {
 #email {
     text-decoration: none;
     color: black;
+    word-wrap: break-word;
 }
 
 #email:hover {
