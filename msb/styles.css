@@ -155,11 +155,6 @@ body {
     margin-top: 40px;
 }
 
-
-
-/*HAMBURGER MENUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU*/
-
-
 .slide-in-menu-container {
     background-color: rgba(0, 150, 214, 0.9);
     width: 100%;
@@ -175,8 +170,6 @@ body {
 .slide-in-menu-container.open {
     display: unset;
 }
-
-
 
 @keyframes fadeIn {
     from {

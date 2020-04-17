@@ -1,0 +1,118 @@
+body {
+    margin: 0;   
+}
+
+.bio-background {
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    background-image: url(pictures/aaa.jpg);
+    background-blend-mode: overlay;
+    width: 100%;
+}
+
+.bio {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px;
+}
+
+.bioinfo {
+    display: flex;
+    align-items: center;
+}
+
+.movie-title {
+    flex: 1.5;
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: 'Alata', sans-serif;
+    margin-left: 50px;
+    color: white;
+}
+
+.year {
+    font-size: 30px;
+    color: rgba(153,15,15,0.8);
+}
+
+.movie-title > p {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
+
+.bio-pic {
+    width: 300px;
+}
+
+.director {
+    line-height: 0;
+}
+
+.navbarwrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(133,15,15,0.8);
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    font-family: 'Alata', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.cast {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+}
+
+.actors {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.winona {
+    box-shadow: 11px 14px 15px -5px rgba(0,0,0,0.18);
+    transition: 0.2s;
+}
+
+.winona:hover {
+    box-shadow: 11px 14px 37px -5px rgba(0,0,0,0.46);
+}
+
+.winpic {
+    height: 175px;
+    width: 138px;
+}
+
+.ryder {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.pierce {  
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
