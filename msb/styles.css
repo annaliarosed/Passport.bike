@@ -81,16 +81,49 @@ body {
 .brew-directory {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
-    border-bottom: 2px solid black;
+    
 }
 
 .brew-town {
+    color: #8C8B8B;
     list-style: none;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 60px;
+    padding-left: 15px;
     font-weight: bold;
+    border-bottom: 2px solid #8C8B8B;
+}
+
+.brew-town:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.brew-thumbnails-stcharles {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    font-weight: bold;
+    display: none;
+}
+
+.brew-thumbnails-algonquin {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    font-weight: bold;
+ 
+}
+
+/*ACTIVE TAB*/
+.active-tab {
+    border-bottom: 2px solid black;
+    color: black;
 }
 
 .main-footer {
